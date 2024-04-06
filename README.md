@@ -51,6 +51,9 @@ User can create thier spaces, quickly record them, then proceeds to **MagicRecap
 - Netlify for deployment.
 - Git/GITHUB for version control and codebase hosting.
 - Huddle01 Docs that powers the project. https://docs.huddle01.com/docs
+- Prisma DB ORM 
+- Neon Database for the database hosting provider 
+- NextAuth.js ( post planned )
 
 
 ## Huddle01 Integration:
