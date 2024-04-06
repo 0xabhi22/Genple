@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:deploy": "npx prisma generate",
+    "netlify-build": "npm run prisma:deploy && npm run build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
@@ -36,7 +38,9 @@
     "tailwindcss-animate": "^1.0.7",
     "usehooks-ts": "^3.0.2",
     "zod": "^3.22.4",
-    "zustand": "^4.5.2"
+    "zustand": "^4.5.2",
+    "@prisma/client": "^5.12.1",
+    "prisma": "^5.12.1"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
